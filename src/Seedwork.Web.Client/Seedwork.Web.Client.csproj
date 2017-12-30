@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Hqv.Seedwork.Web.Client</AssemblyName>
+    <RootNamespace>Hqv.Seedwork.Web.Client</RootNamespace>
+    <Version>2.0.0</Version>
+    <Authors>Hqv</Authors>
+    <Company>Hqv</Company>
+    <Product>Hqv</Product>
+    <Description>Commonly used C# interfaces, objects, extensions, and methods for Web Clinet</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Seedwork\Seedwork.csproj" />
+  </ItemGroup>
+
+</Project>
