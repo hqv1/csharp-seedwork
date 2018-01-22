@@ -26,7 +26,11 @@ node('windows') {
 
 		dir("src/Seedwork.App") {
 			bat 'dotnet pack --no-build -c Release'
-		}		
+		}	
+		
+		dir("src/Seedwork.Audit.Serilog") {
+			bat 'dotnet pack --no-build -c Release'
+		}	
 
 		dir("src/Seedwork.Web") {
 			bat 'dotnet pack --no-build -c Release'
